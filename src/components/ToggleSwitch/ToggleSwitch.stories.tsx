@@ -40,3 +40,11 @@ export const SinLabel: Story = {
     color: 'primary',
   },
 };
+
+export const ConTextoPersonalizado: Story = {
+  args: {
+    label: 'Acepto términos',
+    defaultChecked: false,
+    color: 'primary',
+  },
+};
