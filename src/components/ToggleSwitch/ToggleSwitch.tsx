@@ -10,7 +10,7 @@ export interface ToggleSwitchProps {
 }
 
 export default function ToggleSwitch({
-  label = 'Toggle',
+  label = 'Activar',
   defaultChecked = false,
   color = 'primary',
   onChange,
