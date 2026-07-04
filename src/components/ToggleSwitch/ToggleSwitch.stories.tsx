@@ -2,23 +2,16 @@ import type { Meta, StoryObj } from '@storybook/react';
 import ToggleSwitch from './ToggleSwitch';
 
 const meta: Meta<typeof ToggleSwitch> = {
-    title: 'UI/ToggleSwitch',
-    component: ToggleSwitch,
-    tags: ['autodocs'],
-    argTypes: {
-        onChange: { action: 'changed' },
-        color: {
-            control: 'select',
-            options: [
-                'primary',
-                'secondary',
-                'success',
-                'error',
-                'info',
-                'warning',
-            ],
-        },
+  title: 'UI/ToggleSwitch',
+  component: ToggleSwitch,
+  tags: ['autodocs'],
+  argTypes: {
+    onChange: { action: 'changed' },
+    color: {
+      control: 'select',
+      options: ['primary', 'secondary', 'success', 'error', 'info', 'warning'],
     },
+  },
 };
 
 export default meta;
